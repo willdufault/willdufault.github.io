@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+// Smooth scroll behavior.
+html {
+	scroll-behavior: smooth;
+}
+
+// Custom scrollbar.
+// Scrollbar width.
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+// Scrollbar track.
+::-webkit-scrollbar-track-piece {
+	background: #e0e0e0;
+}
+
+// Scrollbar thumb.
+::-webkit-scrollbar-thumb {
+	background: #666;
+}
+
+// Scrollbar thumb on hover.
+::-webkit-scrollbar-thumb:hover {
+	background: #444;
+}
+
+// Change link color to match default danger color.
+$danger: hsl(348, 86%, 61%);
+$blue: $danger;
+
+// Roboto font.
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$family-sans-serif: 'Roboto', sans-serif;
+
+@import '../../node_modules/bulma/bulma.sass';
