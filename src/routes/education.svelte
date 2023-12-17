@@ -1,6 +1,6 @@
 <!-- HTML. -->
 <main>
-	<section id='education' class='section m-6'>
+	<section id='education' class='section my-6'>
 		<div class='container has-text-centered'>
 			<h1 class='title'>Education</h1>
 			<div class='columns is-justify-content-center'>

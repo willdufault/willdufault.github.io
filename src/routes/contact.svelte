@@ -1,6 +1,6 @@
 <!-- HTML. -->
 <main>
-	<section id='contact' class='section m-6'>
+	<section id='contact' class='section my-6'>
 		<div class='container has-text-centered'>
 			<h1 class='title'>Contact</h1>
 			<div class='columns is-mobile is-justify-content-center'>

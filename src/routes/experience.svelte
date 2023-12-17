@@ -1,6 +1,6 @@
 <!-- HTML. -->
 <main>
-	<section id='experience' class='section m-6'>
+	<section id='experience' class='section my-6'>
 		<div class='container has-text-centered'>
 			<h1 class='title'>Experience</h1>
 			<div class='columns is-multiline is-justify-content-center'>
