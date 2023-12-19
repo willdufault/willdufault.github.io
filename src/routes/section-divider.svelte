@@ -4,7 +4,11 @@
 </main>
 
 <!-- CSS. -->
-<style></style>
+<style>
+	hr {
+		background: #f0f0f0;
+	}
+</style>
 
 <!-- TypeScript. -->
 <script lang='ts'></script>

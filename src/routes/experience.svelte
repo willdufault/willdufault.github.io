@@ -10,12 +10,13 @@
 						<div class='card'>
 							<div class='card-image'>
 								<figure class='image is-3by2'>
-									<img class='cover' src={job.imageUrl} alt={job.imageAlt}>
+									<img class='is-object-fit-contain pt-4' src={job.imageUrl} alt={job.imageAlt}>
 								</figure>
 							</div>
 							<div class='card-content'>
 								<h1 class='title is-4'>{job.jobTitle}</h1>
-								<h1 class='subtitle'>{job.company}</h1>
+								<h1 class='subtitle mb-1'>{job.company}</h1>
+								<h1 class='subtitle is-6'>{job.dateRange}</h1>
 								<p>
 									{job.description}	
 								</p>
@@ -33,12 +34,6 @@
 	.card {
 		height: 100%;
 	}
-	
-	.cover {
-		object-fit: cover;
-		object-position: top center;
-		padding: 1rem;
-	}
 </style>
 
 <!-- TypeScript. -->
@@ -47,6 +42,7 @@
 	interface JobData {
 		jobTitle: string,
 		company: string,
+		dateRange: string,
 		description: string
 		imageUrl: string,
 		imageAlt: string
@@ -55,39 +51,30 @@
 	// List of jobs.
 	let jobs: JobData[] = [
 		{
-			jobTitle: 'Student Assistant',
+			jobTitle: 'Computer Science Student Assistant',
 			company: 'Worcester Polytechnic Institute',
-			description: 'Directed labs, held office hours, and graded assignments for 10 hours/week \
-			alongside full course load. Expedited grading by 10%+ by matching student responses to regular \
-			expressions using Python.',
+			dateRange: 'Sep 2023 – Dec 2023',
+			description: 'Directed labs, held office hours, tutored students, and graded assignments for \
+			10 hours/week alongside full course load. Automated tasks with Python.',
 			imageUrl: 'images/wpi-seal.png',
 			imageAlt: 'Worcester Polytechnic Institute Seal'
 		},
 		{
 			jobTitle: 'Cloud Engineer Intern',
 			company: 'BJ\'s Wholesale Club',
-			description: 'Minimized resource wastage by adding 3 lifecycle configurations to SageMaker \
-			that automatically terminated idle instances and notebooks after a specified amount of time, \
-			saving $3,500/year. Improved the flow of information by creating an alert system that sent an \
-			email any time the number of on-demand instances for an EMR cluster exceeded a given threshold \
-			using Lambda, SNS, and EventBridge, saving $2,300/year. Streamlined the spot price \
-			optimization process by architecting and deploying an AWS application that generated a weekly \
-			Excel report containing EMR and EC2 data using Lambda, S3, CloudFormation, and EventBridge. \
-			Increased productivity by containerizing the primary SageMaker Python environment using Docker \
-			and ECR, saving 20+ seconds every time an instance using that environment was launched. \
-			Received the Pacesetter Award for exceptional performance and setting the standard of \
-			achievement for interns. Wrote an executive summary and delivered a final presentation to \
-			C-level executives after 12 weeks.',
+			dateRange: 'May 2023 – Aug 2023',
+			description: 'Automated and optimized processes in the machine learning workflow with Python \
+			and AWS. Saved $5,800/year across all projects and delivered a final presentation to C-level \
+			executives after 12 weeks.',
 			imageUrl: 'images/bjs-logo.png',
 			imageAlt: 'BJ\'s Wholesale Club Logo'
 		},
 		{
 			jobTitle: 'Paint Sales Associate',
 			company: 'The Home Depot',
-			description: 'Demonstrated excellent communication skills by aiding 30+ customers per day and \
-			collaborating with coworkers to complete orders. Memorized 50+ continuously changing products \
-			to tailor suggestions for optimal customer experience. Exhibited a strong work ethic by \
-			working extra hours that were frequently understaffed.',
+			dateRange: 'May 2022 – Oct 2022',
+			description: 'Helped 30+ customers per day with any questions or requests. Exhibited a strong \
+			work ethic by working extra hours that were frequently understaffed.',
 			imageUrl: 'images/home-depot-logo.png',
 			imageAlt: 'The Home Depot Logo'
 		}

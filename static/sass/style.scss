@@ -1,5 +1,26 @@
 @charset 'utf-8';
 
+// Custom Bulma classes.
+// Mobile-specific classes.
+@media screen and (max-width: 768px) {
+	.is-justify-content-center-mobile {
+		justify-content: center;
+	}
+
+	.pl-10pct-mobile {
+		padding-left: 10%;
+	}
+}
+
+.is-object-fit-contain {
+	object-fit: contain;
+}
+
+// Light gray body to increase card border contrast.
+body {
+	background: #fafafa;
+}
+
 // Smooth scroll behavior.
 html {
 	scroll-behavior: smooth;
@@ -13,7 +34,7 @@ html {
 
 // Scrollbar track.
 ::-webkit-scrollbar-track-piece {
-	background: #e0e0e0;
+	background: #e4e4e4;
 }
 
 // Scrollbar thumb.
@@ -26,9 +47,8 @@ html {
 	background: #444;
 }
 
-// Change link color to match default danger color.
-$danger: hsl(348, 86%, 61%);
-$blue: $danger;
+// Change Bulma primary color.
+$primary: hsl(217, 71%, 53%);
 
 // Roboto font.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

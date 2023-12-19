@@ -46,11 +46,11 @@
 			itemUrl: '#projects',
 			newTab: false
 		},
-		{
-			name: 'Contact',
-			itemUrl: '#contact',
-			newTab: false
-		},
+		// {
+		// 	name: 'Contact',
+		// 	itemUrl: '#contact',
+		// 	newTab: false
+		// },
 		// {
 		// 	name: 'Resume',
 		// 	itemUrl: 'https://www.google.com',

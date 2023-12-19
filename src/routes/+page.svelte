@@ -12,8 +12,8 @@
 	<Experience></Experience>
 	<SectionDivider></SectionDivider>
 	<Projects></Projects>
-	<SectionDivider></SectionDivider>
-	<Contact></Contact>
+	<!-- <SectionDivider></SectionDivider> -->
+	<!-- <Contact></Contact> -->
 	<Footer></Footer>
 </main>
 
