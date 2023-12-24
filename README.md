@@ -1,0 +1,3 @@
+# Hmmm...
+
+It looks like my portfolio is down. Could you please [send me an email](mailto:wrdufault@wpi.edu) and let me know? I'll fix it as soon as I can.
