@@ -12,7 +12,8 @@
 		"format": "prettier --write .",
 		"css-build": "node-sass --omit-source-map-url ./static/sass/style.scss ./static/css/style.css",
 		"css-watch": "npm run css-build -- --watch",
-		"css-start": "npm run css-watch"
+		"css-start": "npm run css-watch",
+		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^3.1.6",
