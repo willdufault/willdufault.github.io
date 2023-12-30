@@ -1,7 +1,7 @@
 <!-- HTML. -->
 <main>
 	<section class='hero is-fullheight is-primary'>
-		<div class='hero-header'>
+		<div class='hero-head'>
 			<NavigationBar></NavigationBar>
 		</div>
 		<div class='hero-body is-justify-content-center'>
