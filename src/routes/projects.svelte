@@ -95,8 +95,8 @@
 	let projects: ProjectData[] = [
 		{
 			name: 'Beecology',
-			description: 'A citizen science project that collects data on bees and butterflies. Updated \
-			the UI with Angular, Bulma, and TypeScript.',
+			description: 'A citizen science project that collects data on bees and butterflies. Revamped \
+			the user interface using Angular, Bulma, and TypeScript.',
 			imageUrl: 'images/beecology-screenshot.png',
 			imageAlt: 'Beecology Screenshot',
 			liveUrl: null,
@@ -135,26 +135,6 @@
 			inDevelopment: false
 		},
 		{
-			name: 'GoatCalendar',
-			description: 'A web application that converts a student\'s schedule to an easily importable \
-			calendar file. Made with Svelte.',
-			imageUrl: 'images/goatcalendar-screenshot.png',
-			imageAlt: 'GoatCalendar Screenshot',
-			liveUrl: 'https://willdufault.github.io/goatcalendar',
-			githubUrl: 'https://github.com/willdufault/goatcalendar',
-			inDevelopment: false
-		},
-		// {
-		// 	name: 'Punchender',
-		// 	description: 'A crowdfunding site that allows users to create and support projects and \
-		// 	pledges. Made with React, MySQL, and AWS.',
-		// 	imageUrl: 'images/punchender-mockup-screenshot.png',
-		// 	imageAlt: 'Punchender Mockup Screenshot',
-		// 	liveUrl: null,
-		// 	githubUrl: 'https://github.com/willdufault/punchender',
-		// 	inDevelopment: false
-		// },
-		{
 			name: 'Fractal Playground',
 			description: 'A playground to visualize different Julia set fractals. Made with HTML, CSS, \
 			JavaScript, Node.js, Express.js, WebAssembly, and C.',
@@ -174,44 +154,15 @@
 			githubUrl: 'https://github.com/willdufault/interactive-data-structure-visualizer',
 			inDevelopment: false
 		},
-		// {
-		// 	name: 'Student Performance Predictor',
-		// 	description: 'Trained 3 machine learning models, including a neural network, to predict \
-		// 	students\' academic performance based on over 30 variables. Made with Python and TensorFlow.',
-		// 	imageUrl: 'images/student-performance-predictor-screenshot.png',
-		// 	imageAlt: 'Student Performance Predictor Screenshot',
-		// 	liveUrl: null,
-		// 	githubUrl: 'https://github.com/willdufault/student-performance-predictor',
-		// 	inDevelopment: false
-		// },
-		// {
-		// 	name: 'NFL Combine Draft Predictor',
-		// 	description: 'Trained 6 machine learning models to predict what round players would be drafted \
-		// 	based on their NFL Combine performances. Made with Python and scikit-learn.',
-		// 	imageUrl: 'images/nfl-combine-draft-predictor-screenshot.png',
-		// 	imageAlt: 'NFL Combine Draft Predictor Screenshot',
-		// 	liveUrl: null,
-		// 	githubUrl: 'https://github.com/willdufault/nfl-combine-draft-predictor',
-		// 	inDevelopment: false
-		// },
-		// {
-		// 	name: 'Connect Four with Smart Bot',
-		// 	description: 'A program to play Connect Four against another person or a smart bot. Made \
-		// 	with C++.',
-		// 	imageUrl: 'images/connect-four-with-smart-bot-screenshot.png',
-		// 	imageAlt: 'Connect Four with Smart Bot Screenshot',
-		// 	liveUrl: null,
-		// 	githubUrl: 'https://github.com/willdufault/connect-four',
-		// 	inDevelopment: false
-		// },
-		// {
-		// 	name: 'Customizable Fullscreen Clock',
-		// 	description: 'A highly customizable fullscreen clock. Made with HTML, CSS, and JavaScript.',
-		// 	imageUrl: 'images/customizable-fullscreen-clock-screenshot.png',
-		// 	imageAlt: 'Customizable Fullscreen Clock Screenshot',
-		// 	liveUrl: 'https://willdufault.github.io/fullscreen-clock',
-		// 	githubUrl: 'https://github.com/willdufault/fullscreen-clock',
-		// 	inDevelopment: false
-		// }
+		{
+			name: 'GoatCalendar',
+			description: 'A web application that converts a student\'s schedule to an easily importable \
+			calendar file. Made with Svelte.',
+			imageUrl: 'images/goatcalendar-screenshot.png',
+			imageAlt: 'GoatCalendar Screenshot',
+			liveUrl: 'https://willdufault.github.io/goatcalendar',
+			githubUrl: 'https://github.com/willdufault/goatcalendar',
+			inDevelopment: false
+		}
 	];
 </script>
