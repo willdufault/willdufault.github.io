@@ -116,8 +116,8 @@
 		},
 		{
 			name: '24Ours',
-			description: 'A free file-sharing web application that deletes files every day at midnight. \
-			Made with React, Bootstrap, Node.js, Express.js, AWS, and Python.',
+			description: 'A free file-sharing application that deletes files every day at midnight. Made \
+			with React, Bootstrap, Node.js, Express.js, AWS, and Python.',
 			imageUrl: 'images/24ours-screenshot.png',
 			imageAlt: '24Ours Screenshot',
 			liveUrl: 'https://twentyfourours-718556141502.herokuapp.com',
@@ -146,8 +146,8 @@
 		},
 		{
 			name: 'Interactive Data Structure Visualizer',
-			description: 'A web application that allows users to add or remove values from different data \
-			structures. Made with HTML, CSS, and JavaScript.',
+			description: 'A tool that allows users to add or remove values from different data structures. \
+			Made with HTML, CSS, and JavaScript.',
 			imageUrl: 'images/interactive-data-structure-visualizer-screenshot.png',
 			imageAlt: 'Interactive Data Structure Visualizer Screenshot',
 			liveUrl: 'https://willdufault.github.io/interactive-data-structure-visualizer',
@@ -156,7 +156,7 @@
 		},
 		{
 			name: 'GoatCalendar',
-			description: 'A web application that converts a student\'s schedule to an easily importable \
+			description: 'An application that converts a student\'s schedule to an easily importable \
 			calendar file. Made with Svelte.',
 			imageUrl: 'images/goatcalendar-screenshot.png',
 			imageAlt: 'GoatCalendar Screenshot',
