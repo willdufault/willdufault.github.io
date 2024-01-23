@@ -105,7 +105,7 @@
 
 		},
 		{
-			name: 'Immigration4Iran',
+			name: 'Immigration2Germany',
 			description: 'A website that offers legal advice, social service information, and community \
 			building opportunities to refugees entering Germany. Made with Svelte.',
 			imageUrl: 'images/immigration4iran-screenshot.png',
