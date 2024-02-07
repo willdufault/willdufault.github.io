@@ -23,7 +23,7 @@
 		position: absolute;
 	}
 
-	.button:hover {
+	.button:hover, .button:focus {
 		background: white;
 		mix-blend-mode: lighten;
 	}

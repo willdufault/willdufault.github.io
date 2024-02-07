@@ -18,8 +18,8 @@
 										<li>Minor in Data Science</li>
 										<li>GPA 3.91</li>
 										<li>Dean's List for all semesters</li>
-										<li>Upsilon Pi Epsilon (Computer Science Honor Society) Member</li>
-										<li>Expected March 2024</li>
+										<li>Upsilon Pi Epsilon (Computer Science Honor Society)</li>
+										<li>Expected May 2024</li>
 									</ul>
 								</div>
 							</div>

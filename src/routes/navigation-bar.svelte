@@ -18,7 +18,11 @@
 </main>
 
 <!-- CSS. -->
-<style></style>
+<style>
+	.navbar-item:focus {
+		background: transparent;
+	}
+</style>
 
 <!-- TypeScript. -->
 <script lang='ts'>
