@@ -109,7 +109,7 @@
 			description: 'A website that offers legal advice, social service information, and community \
 			building opportunities to refugees entering Germany. Made with Svelte.',
 			imageUrl: 'images/immigration4iran-screenshot.png',
-			imageAlt: 'Immigration4Iran Screenshot',
+			imageAlt: 'Immigration2Germany Screenshot',
 			liveUrl: 'https://willdufault.github.io/immigration4iran',
 			githubUrl: 'https://github.com/willdufault/immigration4iran',
 			inDevelopment: false
