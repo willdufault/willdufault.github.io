@@ -1,7 +1,7 @@
 <!-- Set tab title and favicon.--> 
 <svelte:head>
 	<title>Will Dufault | Software Engineer</title>
-	<link rel='icon' href='/favicon.png'/>
+	<link rel='icon' href='/favicon.svg'/>
 </svelte:head>
 
 <!-- HTML. -->
