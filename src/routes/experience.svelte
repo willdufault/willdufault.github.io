@@ -61,12 +61,12 @@
 			imageAlt: 'Worcester Polytechnic Institute Seal'
 		},
 		{
-			jobTitle: 'Cloud Engineer Intern',
+			jobTitle: 'Software Engineer Intern',
 			company: 'BJ\'s Wholesale Club',
 			dateRange: 'May 2023 – Aug 2023',
-			description: 'Automated and optimized processes in the machine learning workflow using Python \
-			and AWS, saving $5,800/year. Awarded the Pacesetter Award for exceptional performance and \
-			setting the standard of achievement for interns.',
+			description: 'Received the Pacesetter Award for ranking in the top 20% of \
+            interns in the Management Development Program. Automated and optimized processes \
+            in the machine learning workflow using Python and AWS, saving $5,800/year. ',
 			imageUrl: 'images/bjs-logo.png',
 			imageAlt: 'BJ\'s Wholesale Club Logo'
 		},
