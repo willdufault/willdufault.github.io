@@ -1,4 +1,3 @@
-<svg xmlns='http://www.w3.org/2000/svg'>
-  <!-- 32px cuts off the emoji. -->
-  <text y='26' font-size='26'>🧑‍💻</text>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox="0 0 5 5">
+  <text y='4' font-size='4'>🧑‍💻</text>
 </svg>
