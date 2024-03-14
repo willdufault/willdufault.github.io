@@ -51,6 +51,16 @@
 	// List of jobs.
 	let jobs: JobData[] = [
 		{
+			jobTitle: 'Software Engineer Intern',
+			company: 'BJ\'s Wholesale Club',
+			dateRange: 'May 2023 – Present',
+			description: 'Received the Pacesetter Award for ranking in the top 20% of \
+            interns in the Management Development Program. Automated and optimized processes \
+            in the machine learning workflow using Python and AWS, saving $5,800/year. ',
+			imageUrl: 'images/bjs-logo.png',
+			imageAlt: 'BJ\'s Wholesale Club Logo'
+		},
+        {
 			jobTitle: 'Undergraduate Teaching Assistant',
 			company: 'Worcester Polytechnic Institute',
 			dateRange: 'Sep 2023 – Dec 2023',
@@ -59,16 +69,6 @@
 			incorrect responses. Troubleshot problems in lab sessions and office hours.',
 			imageUrl: 'images/wpi-seal.png',
 			imageAlt: 'Worcester Polytechnic Institute Seal'
-		},
-		{
-			jobTitle: 'Software Engineer Intern',
-			company: 'BJ\'s Wholesale Club',
-			dateRange: 'May 2023 – Aug 2023',
-			description: 'Received the Pacesetter Award for ranking in the top 20% of \
-            interns in the Management Development Program. Automated and optimized processes \
-            in the machine learning workflow using Python and AWS, saving $5,800/year. ',
-			imageUrl: 'images/bjs-logo.png',
-			imageAlt: 'BJ\'s Wholesale Club Logo'
 		},
 		{
 			jobTitle: 'Paint Sales Associate',
