@@ -99,9 +99,9 @@
 			the user interface using Angular, Bulma, and TypeScript.',
 			imageUrl: 'images/beecology-screenshot.png',
 			imageAlt: 'Beecology Screenshot',
-			liveUrl: null,
+			liveUrl: 'https://beecology.wpi.edu/webapp_new/main/#/app/home',
 			githubUrl: null,
-			inDevelopment: true
+			inDevelopment: false
 
 		},
 		{
@@ -146,8 +146,8 @@
 		},
 		{
 			name: 'Interactive Data Structure Visualizer',
-			description: 'A tool that allows users to add or remove values from different data structures. \
-			Made with HTML, CSS, and JavaScript.',
+			description: 'A tool that allows users to visualize and interact with different data \
+            structures. Made with HTML, CSS, and JavaScript.',
 			imageUrl: 'images/interactive-data-structure-visualizer-screenshot.png',
 			imageAlt: 'Interactive Data Structure Visualizer Screenshot',
 			liveUrl: 'https://willdufault.github.io/interactive-data-structure-visualizer',
