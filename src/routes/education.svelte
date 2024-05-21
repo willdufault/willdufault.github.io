@@ -17,9 +17,9 @@
 										<li>Bachelor of Science in Computer Science</li>
 										<li>Minor in Data Science</li>
 										<li>GPA 3.91</li>
+										<li>Graduated with High Distinction (equivalent to Summa Cum Laude)</li>
 										<li>Dean's List for all semesters</li>
 										<li>Upsilon Pi Epsilon (Computer Science Honor Society)</li>
-										<li>Expected May 2024</li>
 									</ul>
 								</div>
 							</div>
