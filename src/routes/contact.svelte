@@ -51,7 +51,7 @@
 		},
 		{
 			icon: 'ic:outline-email',
-			contactUrl: 'mailto:wrdufault@wpi.edu',
+			contactUrl: 'mailto:wrdufault@outlook.com',
 		}
 	];
 </script>
