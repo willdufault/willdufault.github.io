@@ -51,7 +51,7 @@
 	// List of jobs.
 	let jobs: JobData[] = [
 		{
-			jobTitle: 'Cloud Software Engineer Intern',
+			jobTitle: 'Software Engineer Intern',
 			company: 'BJ\'s Wholesale Club',
 			dateRange: 'May 2023 – Present',
 			description: 'Received the Pacesetter Award for ranking in the top 20% of \
