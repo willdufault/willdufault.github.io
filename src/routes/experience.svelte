@@ -13,7 +13,7 @@
 
   const jobs: JobData[] = [
     {
-      title: 'Software Engineer Intern',
+      title: 'SWE Intern',
       company: 'BJ\'s Wholesale Club',
       logoPath: './images/bjs-logo.jpg',
       logoAlternateText: 'BJ\'s Wholesale Club logo',

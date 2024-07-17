@@ -1,7 +1,7 @@
 <script lang='ts'></script>
 <main>
   <div class='container'>
-    <a class='logo' href=''>WD</a>
+    <a class='logo' href=''>wd</a>
 
     <div class='items'>
       <a href='#education'>Education</a>
