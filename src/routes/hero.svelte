@@ -2,13 +2,12 @@
 </script>
 <main>
   <div class='container'>
-    <img src='/images/flat-will.png' alt='Will Dufault flat art'>
+    <img src='./images/flat-will.png' alt='Will Dufault flat art'>
     <div class='text-wrapper'>
-      <h1>I write clean code.</h1>
+      <h1>Hey👋, I'm Will.</h1>
       <p>
-        👋 Hey, I'm Will. I'm a software engineer interested in full stack development 
-        and cloud computing. I enjoy breaking down complex problems to uncover simple, 
-        elegant solutions.
+        I'm a software engineer interested in full stack development and cloud computing. 
+        I enjoy breaking down complex problems to uncover simple, elegant solutions.
       </p>
     </div>
   </div>
