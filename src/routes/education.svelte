@@ -1,5 +1,5 @@
 <script lang='ts'></script>
-<main>
+<main id='education'>
   <h2>Education</h2>
   <div class='container'>
     <img src='./images/wpi-seal.png' alt='WPI seal'>

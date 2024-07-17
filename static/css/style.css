@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root {
   --background-color: #f6f6fb;
   --text-color: #181818;
   --subtext-color: #777;
   --line-color: #ddd;
+  --card-color: #ebebf4;
+  --card-hover-color: #dbdbe6;
 }
 
 * {
@@ -17,6 +20,7 @@
 html {
   height: 100%;
   font-size: 110%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,20 +39,21 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1rem 0 1.5rem;
 }
 
 h3 {
   font-size: 1.2rem;
+  padding-bottom: 0.5rem;
 }
 
 h4 {
-  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 a {
@@ -62,11 +67,11 @@ a:hover {
 
 ul {
   list-style-position: inside;
-  margin: 0.5rem 0 0.5rem 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 li {
-  margin-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 hr {

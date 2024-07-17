@@ -1,5 +1,7 @@
 <script lang="ts">
-  interface Job {
+    import Job from './job.svelte';
+
+  interface JobData {
     title: string,
     company: string,
     logoPath: string,
@@ -9,14 +11,14 @@
     endDate: string
   }
 
-  const jobs: Job[] = [
+  const jobs: JobData[] = [
     {
       title: 'Software Engineer Intern',
       company: 'BJ\'s Wholesale Club',
       logoPath: './images/bjs-logo.jpg',
       logoAlternateText: 'BJ\'s Wholesale Club logo',
       bullets: [
-        'Earned the Pacesetter Award for ranking in the top 20% of interns',
+        'Earned the Pacesetter Award for ranking in the top 20% of interns in the Management Development Program',
         'Saved $5,800/year through automation using Python, Jenkins, Docker, and AWS'
       ],
       startDate: 'May 2023',
@@ -28,8 +30,8 @@
       logoPath: './images/wpi-goat-logo.jpg',
       logoAlternateText: 'WPI goat logo',
       bullets: [
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quasi?',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quasi?'
+        'Taught Java and object-oriented programming to a class of 400+ students',
+        'Expedited grading by using Python to automatically reject incorrect responses'
       ],
       startDate: 'Sep 2023',
       endDate: 'Dec 2023'
@@ -40,43 +42,21 @@
       logoPath: './images/home-depot-logo.jpg',
       logoAlternateText: 'The Home Depot logo',
       bullets: [
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quasi?',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quasi?'
+        'Helped 30+ customers/day and collaborated with coworkers to fulfill orders',
+        'Exhibited a strong work ethic by working extra shifts that were understaffed'
       ],
       startDate: 'May 2022',
       endDate: 'Oct 2022'
     }
   ];
 </script>
-<main>
+<main id='experience'>
   <h2>Experience</h2>
   {#each jobs as job, index}
     {#if index > 0}
       <hr>
     {/if}
-    <div class='container'>
-      <img class='round' src={job.logoPath} alt='BJ&apos;s Wholesale Club logo'>
-      <div class='text-wrapper'>
-        <h4>{job.title}</h4>
-        <p>{job.company}</p>
-        <ul>
-          {#each job.bullets as bullet}
-            <li>{bullet}</li>
-          {/each}
-        </ul>
-        <p class='subtext'>{job.startDate} &rarr; {job.endDate}</p>
-      </div>
-    </div>
+    <Job title={job.title} company={job.company} logoPath={job.logoPath} logoAlternateText={job.logoAlternateText} bullets={job.bullets} startDate={job.startDate} endDate={job.endDate}></Job>
   {/each}
 </main>
-<style>
-  .container {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.2rem;
-  }
-
-  img {
-    max-width: 6rem;
-  }
-</style>
+<style></style>

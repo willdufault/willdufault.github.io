@@ -1,13 +1,13 @@
 <script lang='ts'></script>
 <main>
   <div class='container'>
-    <a class='logo' href=''>wd</a>
+    <a class='logo' href=''>WD</a>
 
     <div class='items'>
-      <a href=''>Education</a>
-      <a href=''>Experience</a>
-      <a href=''>Projects</a>
-      <a href=''>Contact</a>
+      <a href='#education'>Education</a>
+      <a href='#experience'>Experience</a>
+      <a href='#projects'>Projects</a>
+      <a href='#contact'>Contact</a>
     </div>
   </div>
 </main>
@@ -23,10 +23,10 @@
   }
 
   .logo {
+    /* font-family: 'Rock Salt', cursive; */
     font-family: 'Fira Code', monospace;
     font-weight: 600;
     text-decoration: none;
-    font-size: 1.1rem;
   }
 
   .items {
