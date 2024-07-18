@@ -31,7 +31,7 @@
       logoAlternateText: 'WPI goat logo',
       bullets: [
         'Taught Java and object-oriented programming to a class of 400+ students',
-        'Expedited grading by using Python to automatically reject incorrect responses'
+        'Expedited grading by 10%+ by using Python to automatically reject incorrect responses'
       ],
       startDate: 'Sep 2023',
       endDate: 'Dec 2023'

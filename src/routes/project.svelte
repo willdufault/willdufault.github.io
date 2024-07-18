@@ -4,16 +4,20 @@
   export let imagePath: string;
   export let imageAlternateText: string;
   export let url: string;
+  export let hasMedal: boolean;
 </script>
 <main>
   <div class='container'>
-    <a class='roundd' href={url}>
-      <img src={imagePath} alt={imageAlternateText}>
+      <a href={url}>
+      <img class='screenshot' src={imagePath} alt={imageAlternateText}>
       <div class='text-wrapper'>
         <h4>{name}</h4>
         <p>{description}</p>
       </div>
     </a>
+    {#if hasMedal}
+      <img class='medal' src='./images/medal.png' alt='Medal icon'>
+    {/if}
   </div>
 </main>
 <style>
@@ -22,6 +26,7 @@
     justify-content: space-between;
     gap: 1rem;
     height: 100%;
+    position: relative;
   }
 
   a {
@@ -43,7 +48,15 @@
     padding: 1rem;
   }
 
-  img {
+  .screenshot {
     max-width: 100%;
+  }
+
+  .medal {
+    height: 4rem;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    pointer-events: none;
   }
 </style>

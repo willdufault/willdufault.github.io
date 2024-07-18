@@ -25,6 +25,5 @@
   main {
     max-width: 38rem;
     margin: auto;
-    /* border: 1px solid black */
   }
 </style>

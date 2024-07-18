@@ -31,5 +31,6 @@
 
   img {
     max-width: 6rem;
+    border-radius: 1rem;
   }
 </style>

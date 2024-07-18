@@ -15,7 +15,7 @@
       icon: 'carbon:email',
       iconColor: 'black',
       handle: 'wrdufault@outlook.com',
-      url: 'mailto:wrdufault@outlook.com?subject=Hey%20Will%20👋'
+      url: 'mailto:wrdufault@outlook.com?subject=From%20your%20portfolio&body=Hi%20Will%2C%0A%0AMy%20name%20is%20%5BYour%20name%5D%20and%20I%20recently%20visited%20your%20portfolio.%20I%20would%20like%20to%20discuss%20%5BJob%20opportunity%2C%20collaboration%2C%20advice%5D.%0A%0AAre%20you%20free%20on%20%5BDays%5D%20to%20schedule%20a%20call%20or%20meeting%3F%0A%0ABest%2C%0A%5BYour%20name%5D'
     },
     {
       name: 'Linkedin',
