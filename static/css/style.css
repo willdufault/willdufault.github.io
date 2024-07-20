@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root {
-  --background-color: #f6f6fb;
+  --background-color1: #f6f6fb;
+  --background-color2: #f0f0f8;
   --text-color: #181818;
   --subtext-color: #777;
   --line-color: #ddd;
-  --card-color: #ebebf4;
-  --card-hover-color: #dbdbe6;
+  --card-color: #e6e6f0;
+  --card-hover-color: #d8d8e4;
 }
 
 * {
@@ -25,7 +26,7 @@ html {
 
 body {
   min-height: 100%;
-  background: var(--background-color);
+  background: var(--background-color1);
 }
 
 h1, h2, h3, h4, p, a, li {
@@ -84,4 +85,9 @@ hr {
 .subtext {
   color: var(--subtext-color);
   font-size: 0.9rem;
+}
+
+.content {
+  max-width: 38rem;
+  margin: auto;
 }

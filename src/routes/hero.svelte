@@ -1,15 +1,19 @@
 <script lang='ts'>
+    import Spacer from './spacer.svelte';
 </script>
 <main>
-  <div class='container'>
-    <img src='./images/linkedin-pfp2-clear.png' alt='Will Dufault flat art'>
-    <div class='text-wrapper'>
-      <h1>Hi, I'm Will.</h1>
-      <p>
-        I'm a software engineer interested in web development and cloud computing. 
-        I enjoy breaking down complex problems to uncover simple, elegant solutions.
-      </p>
+  <div class='content'>
+    <div class='container'>
+      <img src='./images/linkedin-pfp2-clear.png' alt='Will Dufault flat art'>
+      <div class='text-wrapper'>
+        <h1>Hi, I'm Will.</h1>
+        <p>
+          I'm a software engineer interested in web development and cloud computing. 
+          I enjoy breaking down complex problems to uncover simple, elegant solutions.
+        </p>
+      </div>
     </div>
+  <Spacer></Spacer>
   </div>
 </main>
 <style>

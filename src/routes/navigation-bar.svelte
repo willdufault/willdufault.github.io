@@ -1,21 +1,22 @@
-<script lang='ts'></script>
+<script lang='ts'>
+  import Spacer from './spacer.svelte';
+</script>
 <main>
-  <div class='container'>
-    <a class='logo' href=''>wd</a>
-
-    <div class='items'>
-      <a href='#education'>Education</a>
-      <a href='#experience'>Experience</a>
-      <a href='#projects'>Projects</a>
-      <a href='#contact'>Contact</a>
+  <div class='content'>
+    <Spacer></Spacer>
+    <div class='container'>
+      <a class='logo' href=''>wd</a>
+      <div class='items'>
+        <a href='#education'>Education</a>
+        <a href='#experience'>Experience</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contact'>Contact</a>
+      </div>
     </div>
+    <Spacer></Spacer>
   </div>
 </main>
 <style>
-  main {
-    padding: 10% 0;
-  }
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -23,7 +24,6 @@
   }
 
   .logo {
-    /* font-family: 'Rock Salt', cursive; */
     font-family: 'Fira Code', monospace;
     font-weight: 600;
     text-decoration: none;

@@ -1,5 +1,6 @@
 <script lang="ts">
     import Job from './job.svelte';
+    import Spacer from './spacer.svelte';
 
   interface JobData {
     title: string,
@@ -51,12 +52,15 @@
   ];
 </script>
 <main id='experience'>
-  <h2>Experience</h2>
-  {#each jobs as job, index}
+  <div class='content'>
+    <h2>Experience</h2>
+    {#each jobs as job, index}
     {#if index > 0}
-      <hr>
+    <hr>
     {/if}
     <Job title={job.title} company={job.company} logoPath={job.logoPath} logoAlternateText={job.logoAlternateText} bullets={job.bullets} startDate={job.startDate} endDate={job.endDate}></Job>
-  {/each}
+    {/each}
+    <Spacer></Spacer>
+  </div>
 </main>
 <style></style>

@@ -1,9 +1,11 @@
 <script lang='ts'></script>
 <main>
-  <hr>
-  <div class='container'>
-    <p class='subtext'>&copy; 2024 | Will Dufault</p>
-    <a class='subtext' href=''>View source</a>
+  <div class='content'>
+    <hr>
+    <div class='container'>
+      <p class='subtext'>&copy; 2024 | Will Dufault</p>
+      <a class='subtext' href=''>View source</a>
+    </div>
   </div>
 </main>
 <style>

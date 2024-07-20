@@ -1,5 +1,6 @@
 <script lang='ts'>
   import Project from './project.svelte';
+  import Spacer from './spacer.svelte';
 
   interface ProjectData {
     name: string,
@@ -46,14 +47,21 @@
   ];
 </script>
 <main id='projects'>
-  <h2>Projects</h2>
-  <div class='container'>
-    {#each projects as project}
+  <div class='content'>
+    <h2>Projects</h2>
+    <div class='container'>
+      {#each projects as project}
       <Project name={project.name} description={project.description} imagePath={project.imagePath} imageAlternateText={project.imageAlternateText} url={project.url} hasMedal={project.hasMedal}></Project>
-    {/each}
+      {/each}
+    </div>
+    <Spacer></Spacer>
   </div>
 </main>
 <style>
+  main {
+    background-color: var(--background-color2);
+  }
+
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

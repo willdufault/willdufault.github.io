@@ -41,11 +41,13 @@
   ];
 </script>
 <main id='contact'>
-  <h2>Contact</h2>
-  <div class='container'>
-    {#each socials as social}
+  <div class='content'>
+    <h2>Contact</h2>
+    <div class='container'>
+      {#each socials as social}
       <Social name={social.name} icon={social.icon} iconColor={social.iconColor} handle={social.handle} url={social.url}></Social>
-    {/each}
+      {/each}
+    </div>
   </div>
 </main>
 <style>
