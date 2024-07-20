@@ -4,12 +4,12 @@
 
 :root {
   --background-color1: #f6f6fb;
-  --background-color2: #f0f0f8;
+  --background-color2: #f2f2f8;
   --text-color: #181818;
   --subtext-color: #777;
   --line-color: #ddd;
-  --card-color: #e6e6f0;
-  --card-hover-color: #d8d8e4;
+  --card-color: #e8e8f2;
+  --card-hover-color: #dbdbe8;
 }
 
 * {
