@@ -8,7 +8,7 @@
   export let url: string;
 </script>
 <main style='--icon-color: {iconColor}'>
-  <h3>{name}</h3>
+  <h4>{name}</h4>
   <a href={url}>
     <Icon icon={icon}></Icon>
     <p>{handle}</p>
@@ -23,7 +23,7 @@
     width: fit-content;
   }
   
-  :global(svg) {
+  a :global(svg) {
     color: var(--subtext-color);
     width: 2.5rem;
     height: auto;

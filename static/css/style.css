@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root {
-  --background-color1: #f6f6fb;
-  --background-color2: #f2f2f8;
-  --text-color: #181818;
-  --subtext-color: #777;
+  --background-color1: #fafaff;
+  --background-color2: #f5f5fc;
+  --text-color: #111;
+  --subtext-color: #666;
   --line-color: #ddd;
   --card-color: #e8e8f2;
-  --card-hover-color: #dbdbe8;
+  --card-hover-color: #dbdbe6;
 }
 
 * {
@@ -22,14 +21,14 @@ html {
   height: 100%;
   font-size: 110%;
   scroll-behavior: smooth;
+  background: var(--background-color1);
 }
 
 body {
   min-height: 100%;
-  background: var(--background-color1);
 }
 
-h1, h2, h3, h4, p, a, li {
+h1, h2, h3, h4, p, a, li, button {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
 }
@@ -90,4 +89,17 @@ hr {
 .content {
   max-width: 38rem;
   margin: auto;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+.mobile-only {
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 }

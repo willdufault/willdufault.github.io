@@ -14,7 +14,7 @@
   const projects: ProjectData[] = [
     {
       name: 'Beecology',
-      description: 'The web app for a citizen science project that collects bee and butterfly data.',
+      description: 'A citizen science web app for collecting data on bees and butterflies.',
       imagePath: './images/beecology-screenshot.jpg',
       imageAlternateText: 'Beecology screenshot',
       url: 'https://beecology.wpi.edu/webapp_new/main/#/app/home',
@@ -68,5 +68,10 @@
     grid-template-rows: repeat(2, 1fr);
     row-gap: 1.5rem;
     column-gap: 1.5rem;
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 </style>

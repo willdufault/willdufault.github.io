@@ -30,9 +30,6 @@
   }
 
   a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-decoration: none;
     overflow: hidden;
     background-color: var(--card-color);

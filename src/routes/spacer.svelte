@@ -2,6 +2,6 @@
 <main></main>
 <style>
   main {
-    padding-top: 10%;
+    padding-top: 4rem;
   }
 </style>

@@ -28,9 +28,17 @@
     display: flex;
     align-items: center;
     gap: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+      align-items: flex-start;
+    }
   }
 
   img {
-    max-width: 10rem;
+    width: 10rem;
+
+    @media screen and (max-width: 768px) {
+      width: 6rem;
+    }
   }
 </style>
