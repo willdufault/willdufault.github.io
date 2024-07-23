@@ -16,7 +16,7 @@
 <main>
   <div class='content'>
     <div class='container'>
-      <a class='logo' href=''>wd</a>
+      <a class='logo' href='https://willdufault.github.io'>wd</a>
       <button class='mobile-only' on:click={() => openMenu()}>
         <Icon icon="ci:hamburger-md" width="1rem" height="1rem" />
       </button>
