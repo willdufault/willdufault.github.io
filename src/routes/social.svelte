@@ -8,7 +8,7 @@
   export let url: string;
 </script>
 <main style='--icon-color: {iconColor}'>
-  <h4>{name}</h4>
+  <h3>{name}</h3>
   <a href={url}>
     <Icon icon={icon}></Icon>
     <p>{handle}</p>

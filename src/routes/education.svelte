@@ -38,7 +38,7 @@
     width: 10rem;
 
     @media screen and (max-width: 768px) {
-      width: 6rem;
+      width: 4rem;
     }
   }
 </style>

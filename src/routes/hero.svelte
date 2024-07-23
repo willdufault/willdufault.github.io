@@ -8,8 +8,8 @@
       <p>
         I'm a software engineer interested in web development and cloud computing. 
         I enjoy breaking down complex problems to uncover simple, elegant solutions.
-        I'm currently working as a SWE Intern at BJ's Wholesale Club.
-        <!--  and as a freelance web developer on Upwork -->
+        I'm currently working as a Software Engineer Intern at BJ's Wholesale Club
+        and as a freelance web developer on Upwork.
       </p>
     </div>
   <Spacer></Spacer>
@@ -17,6 +17,10 @@
 </main>
 <style>
   .container {
-    padding: 2rem;
+    padding: 0 4rem;
+
+    @media screen and (max-width: 768px) {
+      padding: 0 1rem;
+    }
   }
 </style>

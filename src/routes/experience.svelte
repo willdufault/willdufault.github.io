@@ -14,7 +14,7 @@
 
   const jobs: JobData[] = [
     {
-      title: 'SWE Intern',
+      title: 'Software Engineer Intern',
       company: 'BJ\'s Wholesale Club',
       logoPath: './images/bjs-logo.jpg',
       logoAlternateText: 'BJ\'s Wholesale Club logo',
@@ -26,7 +26,7 @@
       endDate: 'Present'
     },
     {
-      title: 'Undergraduate TA',
+      title: 'Undergraduate Teaching Assistant',
       company: 'WPI',
       logoPath: './images/wpi-goat-logo.jpg',
       logoAlternateText: 'WPI goat logo',
