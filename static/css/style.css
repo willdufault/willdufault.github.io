@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 :root {
-  --background-color1: #fafaff;
-  --background-color2: #f5f5fa;
+  --background-color1: #fcfcff;
+  --background-color2: #f7f7fc;
   --text-color: #111;
   --subtext-color: #666;
   --line-color: #ddd;
-  --card-color: #e8e8f0;
-  --card-hover-color: #dbdbe4;
+  --card-color: #eaeaf0;
+  --card-hover-color: #dddde4;
 }
 
 * {
