@@ -4,7 +4,7 @@
     <hr>
     <div class='container'>
       <p class='subtext'>&copy; 2024 | Will Dufault</p>
-      <a class='subtext' href=''>View source</a>
+      <a class='subtext' href='https://github.com/willdufault/willdufault.github.io'>View source</a>
     </div>
   </div>
 </main>
