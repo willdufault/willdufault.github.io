@@ -6,8 +6,8 @@ import expressJsLogo from '../../assets/images/expressjs-logo.webp'
 import gitLogo from '../../assets/images/git-logo.webp'
 import jenkinsLogo from '../../assets/images/jenkins-logo.webp'
 import mongoDbLogo from '../../assets/images/mongodb-logo.webp'
+import mySqlLogo from '../../assets/images/mySql-logo.webp'
 import nodeJsLogo from '../../assets/images/nodejs-logo.webp'
-import postgresLogo from '../../assets/images/postgres-logo.webp'
 import pythonLogo from '../../assets/images/python-logo.webp'
 import reactLogo from '../../assets/images/react-logo.webp'
 import tailwindLogo from '../../assets/images/tailwind-logo.webp'
@@ -68,11 +68,11 @@ function Skills() {
       alt: 'Express.js logo',
     },
     {
-      name: 'PostgreSQL',
+      name: 'MySQL',
       description: 'Relational database',
-      color: 'bg-blue-500/30',
-      logo: postgresLogo,
-      alt: 'PostgreSQL logo',
+      color: 'bg-sky-700/30',
+      logo: mySqlLogo,
+      alt: 'MySQL logo',
     },
     {
       name: 'MongoDB',
