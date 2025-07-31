@@ -70,7 +70,7 @@ function Skills() {
     {
       name: 'MySQL',
       description: 'Relational database',
-      color: 'bg-sky-700/30',
+      color: 'bg-sky-800/30',
       logo: mySqlLogo,
       alt: 'MySQL logo',
     },
