@@ -11,12 +11,12 @@ function Experience() {
       company: "BJ's Wholesale Club",
       roles: [
         {
-          title: 'Cloud Engineer',
+          title: 'Cloud Software Engineer',
           start: 'Aug 2024',
           end: 'Now',
         },
         {
-          title: 'Cloud Engineer Intern',
+          title: 'Cloud Software Engineer Intern',
           start: 'May 2024',
           end: 'Aug 2024',
         },
