@@ -8,7 +8,6 @@ function Contact() {
     {
       name: 'Email',
       icon: faEnvelope,
-      // url: 'mailto:wrdufault@outlook.com?subject=Inquiry%20from%20portfolio%20site&body=Hi%20Will%2C%0A%0AI%20checked%20out%20your%20portfolio%20and%20would%20love%20to%20chat%20about%20any%20opportunities%20or%20projects.%20Let%20me%20know%20when%E2%80%99s%20a%20good%20time%20to%20connect!%0A%0AThanks%2C%0A%5BYour%20name%5D  ',
       url: 'mailto:wrdufault@outlook.com?subject=Inquiry%20from%20willdufault.dev&body=Hi%20Will%2C%0A%0AI%20checked%20out%20your%20website%20and%20would%20love%20to%20chat%20about%20any%20opportunities%20or%20projects.%20Let%20me%20know%20when%E2%80%99s%20a%20good%20time%20to%20connect!%0A%0AThanks%2C%0A%5BYour%20name%5D  ',
     },
     {
