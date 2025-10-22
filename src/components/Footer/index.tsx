@@ -3,7 +3,7 @@ function Footer() {
 
   return (
     <footer className="py-4 border-t border-zinc-600">
-      <p>&copy; {year} Will Dufault</p>
+      <p className="text-neutral-400">&copy; {year} Will Dufault</p>
     </footer>
   )
 }
