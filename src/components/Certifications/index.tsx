@@ -7,15 +7,13 @@ import type { Certification } from './types'
 function Certifications() {
   const skills: Certification[] = [
     {
-      name: 'Solutions Architect - Associate',
-      issuer: 'AWS',
+      name: 'AWS Solutions Architect – Associate',
       date: 'Jul 2024',
       logo: awsSolutionsArchitectAssociateLogo,
-      alt: 'AWS Certified Solutions Architect logo',
+      alt: 'AWS Certified Solutions Architect – Associate logo',
     },
     {
-      name: 'Cloud Practitioner',
-      issuer: 'AWS',
+      name: 'AWS Cloud Practitioner',
       date: 'Nov 2024',
       logo: awsCloudPractitionerLogo,
       alt: 'AWS Certified Cloud Practitioner logo',
@@ -28,15 +26,14 @@ function Certifications() {
       <div className='grid gap-2 grid-cols-1 sm:grid-cols-2 items-stretch'>
         {skills.map((certification: Certification, index: number) => (
           <Card key={index}>
-            <div className='flex flex-col sm:flex-row gap-4'>
+            <div className='flex gap-4 items-center'>
               <img
                 src={certification.logo}
                 alt={certification.alt}
                 className='w-20 h-20'
               />
               <div>
-                <h2 className='font-bold'>{certification.issuer}</h2>
-                <h3>{certification.name}</h3>
+                <h2>{certification.name}</h2>
                 <p className='text-sm text-neutral-400'>{certification.date}</p>
               </div>
             </div>

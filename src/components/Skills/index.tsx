@@ -121,16 +121,16 @@ function Skills() {
   return (
     <section>
       <Title>Skills</Title>
-      <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center ">
+      <div className='grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-stretch'>
         {skills.map((skill: Skill, index: number) => (
           <Card hover key={index}>
-            <div className="h-fit flex gap-4 items-center">
+            <div className='h-fit flex gap-4 items-center'>
               <div className={`p-3 h-fit shrink-0 rounded-md ${skill.color}`}>
-                <img src={skill.logo} alt={skill.alt} className="w-8 h-8" />
+                <img src={skill.logo} alt={skill.alt} className='w-8 h-8' />
               </div>
               <div>
                 <h2>{skill.name}</h2>
-                <p className="text-sm text-neutral-400">{skill.description}</p>
+                <p className='text-sm text-neutral-400'>{skill.description}</p>
               </div>
             </div>
           </Card>
