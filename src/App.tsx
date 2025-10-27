@@ -1,3 +1,4 @@
+import Certifications from './components/Certifications'
 import Container from './components/Container'
 import Education from './components/Education'
 import Experience from './components/Experience'
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <Spacer />
       <Skills />
+      <Spacer />
+      <Certifications />
       <Spacer />
       <Experience />
       <Spacer />
