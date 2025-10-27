@@ -3,4 +3,5 @@ export type Certification = {
   date: string
   logo: string
   alt: string
+  url: string
 }
