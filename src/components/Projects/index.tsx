@@ -19,7 +19,6 @@ function Projects() {
       skills: [
         'TypeScript',
         'React',
-        'Tailwind',
         'Node.js',
         'Express.js',
         'MongoDB',
