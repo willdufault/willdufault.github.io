@@ -42,7 +42,7 @@ function Skills() {
     {
       name: "Java",
       description: "Language",
-      color: "bg-orange-400/30",
+      color: "bg-orange-500/30",
       logo: javaLogo,
       alt: "Java logo",
     },
