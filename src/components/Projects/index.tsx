@@ -14,6 +14,14 @@ import type { Project } from './types'
 function Projects() {
   const projects: Project[] = [
     {
+      name: 'AI Chess',
+      description: 'Chess with AI opponent and custom engine.',
+      skills: ['Python', 'pytest', 'cProfile'],
+      image: aiChessScreenshot,
+      alt: 'AI Chess screenshot',
+      repoUrl: 'https://github.com/willdufault/ai-chess',
+    },
+    {
       name: 'minifi',
       description: 'Full-stack tech article-sharing platform.',
       skills: [
@@ -43,14 +51,6 @@ function Projects() {
       alt: 'Fractal Playground screenshot',
       repoUrl: 'https://github.com/willdufault/fractal-playground',
       liveUrl: 'https://willdufault.dev/fractal-playground',
-    },
-    {
-      name: 'AI Chess',
-      description: 'Chess with AI opponent and custom engine.',
-      skills: ['Python'],
-      image: aiChessScreenshot,
-      alt: 'AI Chess screenshot',
-      repoUrl: 'https://github.com/willdufault/ai-chess',
     },
   ]
 
