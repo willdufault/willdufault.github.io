@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply scheme-dark scroll-smooth bg-neutral-950;
+  }
+
+  body {
+    @apply my-24 mx-auto max-w-screen-sm px-4;
+  }
+
+  h1 {
+    @apply text-xl font-semibold;
+  }
+
+  h2 {
+    @apply text-lg font-semibold mb-2;
+  }
+
+  p {
+    @apply text-neutral-400;
+  }
+
+  a {
+    @apply decoration-1;
+  }
+
+  sub {
+    @apply text-sm text-neutral-400 bottom-0;
+  }
+}
