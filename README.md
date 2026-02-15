@@ -1,3 +1,3 @@
 # willdufault.github.io
 
-![View my portfolio](https://willdufault.github.io)
+<a href="https://willdufault.dev">Visit my portfolio</a>
