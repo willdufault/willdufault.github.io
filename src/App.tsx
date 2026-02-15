@@ -4,6 +4,7 @@ import Experience from "./sections/Experience.tsx"
 import Projects from "./sections/Projects.tsx"
 import Education from "./sections/Education.tsx"
 import Contact from "./sections/Contact.tsx"
+import Footer from "./sections/Footer.tsx"
 
 export default function App() {
   return (
@@ -17,6 +18,8 @@ export default function App() {
       <Education />
       <Spacer />
       <Contact />
+      <Spacer />
+      <Footer />
     </>
   )
 }
