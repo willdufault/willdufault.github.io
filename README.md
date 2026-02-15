@@ -1,2 +1,3 @@
 # willdufault.github.io
-[Visit my portfolio](https://willdufault.dev)
+
+![View my portfolio](https://willdufault.github.io)

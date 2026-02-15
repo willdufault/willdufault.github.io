@@ -1,31 +1,22 @@
-import Certifications from "./components/Certifications"
-import Container from "./components/Container"
-import Education from "./components/Education"
-import Experience from "./components/Experience"
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
-import Spacer from "./components/Spacer"
+import Hero from "./sections/Hero.tsx"
+import Spacer from "./components/Spacer.tsx"
+import Experience from "./sections/Experience.tsx"
+import Projects from "./sections/Projects.tsx"
+import Education from "./sections/Education.tsx"
+import Contact from "./sections/Contact.tsx"
 
-function App() {
+export default function App() {
   return (
-    <Container>
+    <>
       <Hero />
       <Spacer />
       <Experience />
       <Spacer />
       <Projects />
       <Spacer />
-      <Skills />
-      <Spacer />
-      <Certifications />
-      <Spacer />
       <Education />
       <Spacer />
-      <Footer />
-    </Container>
+      <Contact />
+    </>
   )
 }
-
-export default App

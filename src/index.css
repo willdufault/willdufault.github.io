@@ -1,14 +1,31 @@
-@import '@fontsource/roboto';
+@import "tailwindcss";
 
-@import 'tailwindcss';
+@layer base {
+  html {
+    @apply scheme-dark scroll-smooth bg-neutral-950;
+  }
 
-html {
-  scroll-behavior: smooth;
-  color-scheme: dark;
-}
+  body {
+    @apply my-24 mx-auto max-w-screen-sm px-4;
+  }
 
-body {
-  @apply text-white;
-  @apply bg-zinc-900;
-  @apply font-[Roboto];
+  h1 {
+    @apply text-xl font-semibold;
+  }
+
+  h2 {
+    @apply text-lg font-semibold mb-2;
+  }
+
+  p {
+    @apply text-neutral-400;
+  }
+
+  a {
+    @apply decoration-1;
+  }
+
+  sub {
+    @apply text-sm text-neutral-400 bottom-0;
+  }
 }
