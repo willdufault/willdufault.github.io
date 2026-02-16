@@ -7,7 +7,7 @@ export default function Education() {
       school: "WPI",
       degrees: [
         {
-          title: "Bachelor of Science in Computer Science",
+          title: "BS in Computer Science",
           graduationDate: "May 2024",
         },
       ],
