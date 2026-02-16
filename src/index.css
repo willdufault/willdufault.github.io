@@ -6,7 +6,7 @@
   }
 
   body {
-    @apply my-24 mx-auto max-w-screen-sm px-4;
+    @apply max-w-screen-sm mx-auto mt-24 mb-4 px-4;
   }
 
   h1 {
