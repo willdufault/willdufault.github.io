@@ -20,7 +20,7 @@ export default function Contact() {
     {
       name: "Resume",
       text: "View →",
-      url: "https://drive.google.com/file/d/1cbYZeUopZ7CCBZy02p3CCpjk9un6IxUc/view",
+      url: "/Will Dufault Resume.pdf",
     },
   ]
 

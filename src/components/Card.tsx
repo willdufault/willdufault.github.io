@@ -5,5 +5,7 @@ type Props = {
 }
 
 export default function Card({ children }: Props) {
-  return <div className="border border-neutral-700 rounded-sm p-4">{children}</div>
+  return (
+    <div className="border border-neutral-800 rounded-sm p-4">{children}</div>
+  )
 }
