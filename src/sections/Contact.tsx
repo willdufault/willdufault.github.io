@@ -15,7 +15,7 @@ export default function Contact() {
     {
       name: "LinkedIn",
       text: "willdufault",
-      url: "https://www.linkedin.com.in/willdufault",
+      url: "https://www.linkedin.com/in/willdufault",
     },
     {
       name: "Resume",
