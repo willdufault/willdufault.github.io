@@ -5,29 +5,29 @@ import type { Project } from "../types/Project"
 export default function Projects() {
   const projects: Project[] = [
     {
-      name: "wsh",
-      description: "Terminal emulator for Windows.",
-      url: "https://github.com/willdufault/wsh",
-      skills: ["Python"],
+      name: "clover",
+      description: "Personal productivity app.",
+      url: "https://github.com/willdufault/clover",
+      skills: ["TypeScript", "Python", "React", "Supabase"]
     },
     {
       name: "AI Chess",
       description: "Chess with AI opponent.",
       url: "https://github.com/willdufault/ai-chess",
-      skills: ["Python", "pytest", "cProfile"],
+      skills: ["Python", "pytest", "cProfile"]
     },
     {
       name: "minifi",
       description: "Tech article-sharing platform.",
       url: "https://github.com/willdufault/minifi",
-      skills: ["TypeScript", "React", "Node.js", "Express.js", "MongoDB"],
+      skills: ["TypeScript", "React", "Node.js", "Express.js", "MongoDB"]
     },
     {
       name: "Fractal Playground",
       description: "Playground for visualizing fractals.",
       url: "https://willdufault.dev/fractal-playground/",
-      skills: ["JavaScript", "C", "WebAssembly"],
-    },
+      skills: ["JavaScript", "C", "WebAssembly"]
+    }
   ]
 
   return (
