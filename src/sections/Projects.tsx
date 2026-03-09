@@ -5,16 +5,16 @@ import type { Project } from "../types/Project"
 export default function Projects() {
   const projects: Project[] = [
     {
-      name: "clover",
-      description: "Personal productivity app.",
-      url: "https://github.com/willdufault/clover",
-      skills: ["TypeScript", "Python", "React", "Supabase"]
-    },
-    {
       name: "AI Chess",
       description: "Chess with AI opponent.",
       url: "https://github.com/willdufault/ai-chess",
       skills: ["Python", "pytest", "cProfile"]
+    },
+    {
+      name: "clover",
+      description: "Personal productivity app.",
+      url: "https://github.com/willdufault/clover",
+      skills: ["TypeScript", "Python", "React", "Supabase"]
     },
     {
       name: "minifi",
