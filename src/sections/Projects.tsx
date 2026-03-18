@@ -11,10 +11,10 @@ export default function Projects() {
       skills: ["Python", "pytest", "cProfile"]
     },
     {
-      name: "clover",
-      description: "Personal productivity app.",
-      url: "https://github.com/willdufault/clover",
-      skills: ["TypeScript", "Python", "React", "Supabase"]
+      name: "resumd",
+      description: "Markdown resume builder.",
+      url: "https://github.com/willdufault/resumd",
+      skills: ["Python", "Claude Code"]
     },
     {
       name: "minifi",
